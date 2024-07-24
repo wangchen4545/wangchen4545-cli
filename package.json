@@ -1,0 +1,33 @@
+{
+  "name": "wangchen4545-cli",
+  "version": "0.1.1",
+  "description": "这是自己的一个脚手架，用来生成项目模板",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lw": "./bin/cli.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "laowang",
+    "email": "wangchen4545love@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "husky": "^8.0.1"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "axios": "^1.6.8",
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "figlet": "^1.5.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^7.0.3",
+    "ora": "^4.0.3",
+    "shelljs": "^0.8.5"
+  }
+}
